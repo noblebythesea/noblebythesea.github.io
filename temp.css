@@ -1,0 +1,33 @@
+@font-face {
+  font-family: nobleFonts;
+  src: url(HomemadeApple-Regular.ttf);
+}
+#logoImage {
+  width: 30em;
+  height: auto;
+}
+p {
+  font-family: nobleFonts;
+  font-size: 2rem;
+  text-align: center;
+  color: #580c1c;
+}
+#socialLinks {
+  margin-bottom: 100px;
+}
+#socialLinks img {
+  padding: 20px;
+  width: 6rem;
+  height: auto;
+}
+#socialLinks img:hover {
+  opacity: 0.5;
+}
+.footer {
+  background-color: #1b2450;
+  width: 100%;
+  height: 4em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
