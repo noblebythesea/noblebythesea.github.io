@@ -3,7 +3,9 @@
   src: url(HomemadeApple-Regular.ttf);
 }
 #logoImage {
-  width: 30em;
+  margin-top: 150px;
+  margin-bottom: 75px;
+  width: 35em;
   height: auto;
 }
 p {
