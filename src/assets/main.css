@@ -1,0 +1,24 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Hammersmith+One&family=Homemade+Apple&family=Merienda:wght@300..900&family=Parisienne&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Syne:wght@400..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-driftwood: #e8e3d8;
+  --color-noblenavy: #1b2450;
+  --color-aurum: #c09856;
+  --color-harbourhaze: #657891;
+  --color-bordeaux: #580c1c;
+
+  --font-inter: "Inter", sans-serif;
+  --font-kingred: "Kingred", serif;
+  --font-homemadeapple: "Homemade Apple", sans-serif;
+}
+
+@font-face {
+  font-family: Kingred;
+  src: url("/src/assets/fonts/kingred.otf");
+}
+
+body {
+  background-color: #e8e3d8;
+}
